@@ -1,0 +1,16 @@
+This scrapper is using:
+
+* Ruby
+> * Nokigiri
+> * Selenium Webdriver
+
+* Rust
+> Install
+> $ curl https://sh.rustup.rs -sSf | sh
+
+* Firefox geckodriver
+> clone to scrapper folder
+> $ git clone https://github.com/mozilla/geckodriver.git
+> Install with Rust
+> $ cd geckodriver
+> $ ~/.cargo/bin/cargo build

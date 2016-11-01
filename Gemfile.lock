@@ -1,0 +1,47 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    diff-lcs (1.2.5)
+    ffi (1.9.14)
+    headless (2.3.1)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
+    rack (1.6.4)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubyzip (1.2.0)
+    selenium-webdriver (3.0.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    watir-webdriver (0.9.3)
+      selenium-webdriver (>= 2.46.2)
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  headless
+  nokogiri
+  rack (~> 1.1)
+  rspec
+  selenium-webdriver
+  watir-webdriver
+
+BUNDLED WITH
+   1.13.6

@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'selenium-webdriver'
+gem 'watir-webdriver'
+gem 'rack', '~>1.1'
+gem 'rspec', :require => 'spec'
+gem 'headless'
